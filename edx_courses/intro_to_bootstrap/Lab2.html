@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Introducing Bootstrap</title>
+
+    <link rel="stylesheet" type="text/css" href="Styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Styles/app.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="container">
+        <div class="page-header well">
+          <h1>Submit Album</h1>
+        </div>
+        <div class="panel-group" id="album_group">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <a data-toggle="collapse" data-parent="#album_group" href="#album_title_and_artist">Album Title and Artist</a>
+              </h3>
+            </div>
+            <div id="album_title_and_artist" class="panel-collapse collapse in">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <a data-toggle="collapse" data-parent="#album_group" href="#track_info">Track Information</a>
+              </h3>
+            </div>
+            <div id="track_info" class="panel-collapse collapse">
+              <div class="panel-body">
+                Track Information
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h3 class="panel-title">
+                <a data-toggle="collapse" data-parent="#album_group" href="#expert_review">Expert Review</a>
+              </h3>
+            </div>
+            <div id="expert_review" class="panel-collapse collapse">
+              <div class="panel-body">
+                Expert Review content
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="Scripts/jquery-1.9.1.min.js"></script>
+    <script src="Scripts/bootstrap.min.js"></script>
+  </body>
+</html>
